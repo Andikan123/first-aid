@@ -31,7 +31,7 @@ const CoursePage = () => {
       {course.content && (
         <div className="notes-section">
           <h2>Course Notes</h2>
-          <p>{course.content}</p>
+          <>{course.content}</>
         </div>
       )}
 
