@@ -21,7 +21,7 @@ body {
   position: fixed;
   width: 250px;
   height: 100%;
-  background-color:black; /* Sidebar background color */
+  background-color: black;
   color: white;
   padding: 2rem;
   display: flex;
@@ -30,26 +30,77 @@ body {
   left: 0;
   z-index: 10;
 }
-/* Media Query for Tablets (max-width: 1024px) */
-@media (max-width: 1024px) {
-  .sidebar {
-    width: 200px; /* Reduce width for tablet-sized screens */
-  }
+.toggle-btn {
+  background: rgb(24, 21, 21);
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggle {
+  display: none;
 }
 
 /* Media Query for Smaller Screens (max-width: 768px) */
 @media (max-width: 768px) {
   .sidebar {
-    width: 150px; /* Further reduce width for mobile screens */
+    display: none; /* Further reduce width for mobile screens */
+  }
+  .toggle {
+    background-color: rgb(80, 76, 76);
+    padding: 40px 20px;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 30;
+  }
+  .sidey {
+    background: #333;
+    transition: 0.3s;
+    margin-top: 80px;
+    position: fixed;
+    width: 150px;
+    /* height: 300px; */
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    z-index: 10;
+  }
+  .sidey ul {
+    list-style: none;
+    margin-top: 2rem;
+  }
+  .sidey ul li {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+  .sidey ul li:hover {
+    background-color: #3182ce;
+  }
+  .sidey ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    padding: 0.5rem;
+    border-radius: 5px;
   }
 }
 
-/* Media Query for Extra Small Screens (max-width: 480px) */
-@media (max-width: 480px) {
-  .sidebar {
-    width: 120px; /* Set the width even smaller for mobile devices */
-  }
-}
 .sidebar h2 {
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
@@ -79,25 +130,26 @@ body {
 
 /* Main Content Styles */
 .main-content {
-  margin-left: 250px; /* This ensures the content is not hidden behind the sidebar */
+  margin-left: 250px;
   padding: 2rem;
   background-color: white;
   overflow-y: auto;
   flex-grow: 1;
 }
 /* Media Query for Tablets (max-width: 1024px) */
-@media (max-width: 1024px) {
-  .main-content {
-    margin-left: 200px; /* Adjust margin-left when sidebar width is 200px */
-    width: calc(100% - 200px); /* Make content width fill remaining space */
-  }
-}
 
 /* Media Query for Smaller Screens (max-width: 768px) */
 @media (max-width: 768px) {
   .main-content {
-    margin-left: 150px; /* Adjust margin-left when sidebar width is 150px */
-    width: calc(100% - 150px); /* Make content width fill remaining space */
+    width: 100vw;
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -177,21 +229,6 @@ footer {
   height: 100vh; /* Full screen */
   width: 100%;
   overflow: hidden;
-  
-}
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-}
-
-/* Body and Background */
-body {
-  background-color: #f4f6f9; /* Light gray background */
-  font-family: 'Arial', sans-serif;
 }
 
 /* Home Container */
@@ -219,11 +256,11 @@ body {
   font-size: 4rem;
   font-weight: 700; /* Bold font weight */
   margin-bottom: 30px;
-  color: #FFD700; /* Elegant gold color */
+  color: #ffd700; /* Elegant gold color */
   text-transform: uppercase; /* Make the text all uppercase for a strong impact */
   letter-spacing: 2px; /* Adds spacing between letters for a sleek look */
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Soft text shadow for a modern effect */
-  font-family: 'Poppins', sans-serif; /* Modern font family */
+  font-family: "Poppins", sans-serif; /* Modern font family */
   line-height: 1.2; /* Tighten line height for a cleaner look */
 }
 /* Media Queries for responsiveness */
@@ -272,8 +309,6 @@ body {
   transform: translateY(-3px); /* Slight lift effect */
 }
 
-
-
 /* src/CoursePage.css */
 .course-page {
   padding: 2rem;
@@ -310,7 +345,7 @@ body {
 /* src/CourseList.css */
 .course-list-page {
   padding: 2rem;
-  background-color:rgb(57, 55, 55); /* Vibrant blue background */;
+  background-color: rgb(57, 55, 55); /* Vibrant blue background */
 }
 
 .course-list-page h1 {
@@ -407,7 +442,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-top: 2rem;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .quiz h4 {
@@ -450,7 +485,7 @@ body {
 }
 
 .quiz-question input[type="radio"]:checked + span {
-  color: #4CAF50; /* Green for correct answer */
+  color: #4caf50; /* Green for correct answer */
 }
 
 .quiz-question input[type="radio"]:not(:checked) + span {
@@ -459,7 +494,7 @@ body {
 
 /* Submit Button Styling */
 .quiz button {
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
   padding: 10px 20px;
   font-size: 1rem;
@@ -533,7 +568,7 @@ body {
 .quizzes-page {
   padding: 2rem;
   font-family: Arial, sans-serif;
-  background-color: rgb(57, 55, 55); /* Vibrant blue background */;
+  background-color: rgb(57, 55, 55); /* Vibrant blue background */
   color: wheat;
 }
 
@@ -602,7 +637,10 @@ button:hover {
 
 .videos-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjusted grid for better flexibility */
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Adjusted grid for better flexibility */
   gap: 1.5rem;
   margin-top: 2rem;
   padding: 1rem;
@@ -646,7 +684,6 @@ video {
   border-radius: 8px;
   outline: none;
 }
-
 
 .logo-container {
   display: flex;
@@ -697,7 +734,3 @@ video {
   letter-spacing: 1px;
   opacity: 0.8;
 }
-
-
-
-
