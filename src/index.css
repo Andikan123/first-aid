@@ -151,6 +151,9 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .course-list-page {
+    padding: 1rem;
+  }
 }
 
 
@@ -398,7 +401,7 @@ footer {
 /* Notes Section */
 .notes-section {
   background-color: #ffffff;
-  padding: 2rem;
+  padding: 2rem 0.5rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
