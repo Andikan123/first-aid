@@ -153,13 +153,7 @@ body {
   }
 }
 
-/* Media Query for Extra Small Screens (max-width: 480px) */
-@media (max-width: 480px) {
-  .main-content {
-    margin-left: 120px; /* Adjust margin-left when sidebar width is 120px */
-    width: calc(100% - 120px); /* Make content width fill remaining space */
-  }
-}
+
 
 .main-content header {
   background-color: #2b6cb0;
