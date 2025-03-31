@@ -1891,6 +1891,530 @@ export const courses = [
     ]
     
   },
+  {
+    id: 6,
+    title: "Basic First Aid ",
+    description: "Basic First Aid ",
+    video: "https://path/to/video.mp4", // Link to a video
+    content:
+    <div
+      style={{
+        fontFamily: "'Poppins', sans-serif",
+        color: "#333",
+        padding: "30px",
+        lineHeight: "1.8",
+        background: "linear-gradient(to right, #ffffff, #f8f9fa)",
+        borderRadius: "12px",
+        boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+      }}
+    >
+      <h1
+        style={{
+          color: "#d9534f",
+          textAlign: "center",
+          textTransform: "uppercase",
+          fontSize: "28px",
+          fontWeight: "bold",
+          letterSpacing: "1px",
+        }}
+      >
+        Definition of First Aid
+      </h1>
+      <p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+        First aid is the provision of immediate care to a victim with an injury or illness, usually by a layperson, and performed within a limited skill range.
+        It is normally performed until the next level of care, such as an ambulance or doctor, arrives.
+      </p>
+
+      <h2 style={{ color: "#0275d8", textDecoration: "underline", fontSize: "22px" }}>Guiding Principles</h2>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li style={{ marginBottom: "8px" }}>✅ Prevent further injury</li>
+        <li style={{ marginBottom: "8px" }}>✅ Preserve life</li>
+        <li>✅ Promote recovery</li>
+      </ul>
+
+      <h2 style={{ color: "#5cb85c", textTransform: "uppercase", fontSize: "22px" }}>What is First Aid?</h2>
+      <p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+        In any accident or life-threatening situation, first aid consists of drug-free applications made at the scene, without medical equipment, to save a life or prevent the situation from worsening.
+      </p>
+
+      <h2 style={{ color: "#f0ad4e", fontSize: "22px" }}>What is an Emergency Intervention?</h2>
+      <p style={{ fontSize: "18px" }}>
+        Emergency intervention refers to medical interventions made by doctors and health personnel in emergency treatment units.
+      </p>
+
+      <h2 style={{ color: "#d9534f", fontSize: "22px" }}>Difference Between First Aid and Emergency Treatment</h2>
+      <p style={{ fontSize: "18px" }}>
+        Emergency treatment is performed by qualified personnel with medical equipment, while first aid is a life-saving intervention performed by anyone trained in it, using available materials.
+      </p>
+
+      <h2 style={{ color: "#0275d8", fontSize: "22px" }}>Basic Principles of First Aid</h2>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li style={{ marginBottom: "8px" }}>🔹 <strong>Protection:</strong> Ensuring environmental safety.</li>
+        <li style={{ marginBottom: "8px" }}>🔹 <strong>Notification:</strong> Activating emergency systems (112, 911, etc.).</li>
+        <li>🔹 <strong>Rescue:</strong> Intervening to help the patient.</li>
+      </ul>
+
+      <h2 style={{ color: "#5cb85c", fontSize: "22px" }}>First Aid Provider Qualities</h2>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li style={{ marginBottom: "8px" }}>✔️ Must have basic knowledge of the human body.</li>
+        <li style={{ marginBottom: "8px" }}>✔️ Protect their own life safety first.</li>
+        <li style={{ marginBottom: "8px" }}>✔️ Stay calm, confident, and practical.</li>
+        <li>✔️ Evaluate available possibilities.</li>
+      </ul>
+
+      <h2 style={{ color: "#f0ad4e", fontSize: "22px" }}>Key Aims of First Aid</h2>
+      <ol style={{ fontSize: "18px", paddingLeft: "20px" }}>
+        <li><strong>Preserve life:</strong> Save lives and minimize the threat of death.</li>
+        <li><strong>Prevent further harm:</strong> Prevent the condition from worsening.</li>
+        <li><strong>Promote recovery:</strong> Start the recovery process and complete minor treatments.</li>
+      </ol>
+
+      <div
+      style={{
+        fontFamily: "'Poppins', sans-serif",
+        color: "#333",
+        padding: "30px",
+        lineHeight: "1.8",
+        background: "linear-gradient(to right, #ffffff, #f8f9fa)",
+        borderRadius: "12px",
+        boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+      }}
+    >
+      <h1
+        style={{
+          color: "#d9534f",
+          textAlign: "center",
+          textTransform: "uppercase",
+          fontSize: "28px",
+          fontWeight: "bold",
+          letterSpacing: "1px",
+        }}
+      >
+        Definition of First Aid
+      </h1>
+      <p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+        First aid is the provision of immediate care to a victim with an injury or illness, usually by a layperson, and performed within a limited skill range.
+        It is normally performed until the next level of care, such as an ambulance or doctor, arrives.
+      </p>
+
+      <h2 style={{ color: "#0275d8", textDecoration: "underline", fontSize: "22px" }}>Guiding Principles</h2>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li style={{ marginBottom: "8px" }}>✅ Prevent further injury</li>
+        <li style={{ marginBottom: "8px" }}>✅ Preserve life</li>
+        <li>✅ Promote recovery</li>
+      </ul>
+
+      <h2 style={{ color: "#5cb85c", textTransform: "uppercase", fontSize: "22px" }}>What is First Aid?</h2>
+      <p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+        In any accident or life-threatening situation, first aid consists of drug-free applications made at the scene, without medical equipment, to save a life or prevent the situation from worsening.
+      </p>
+
+      <h2 style={{ color: "#f0ad4e", fontSize: "22px" }}>What is an Emergency Intervention?</h2>
+      <p style={{ fontSize: "18px" }}>
+        Emergency intervention refers to medical interventions made by doctors and health personnel in emergency treatment units.
+      </p>
+
+      <h2 style={{ color: "#d9534f", fontSize: "22px" }}>Difference Between First Aid and Emergency Treatment</h2>
+      <p style={{ fontSize: "18px" }}>
+        Emergency treatment is performed by qualified personnel with medical equipment, while first aid is a life-saving intervention performed by anyone trained in it, using available materials.
+      </p>
+
+      <h2 style={{ color: "#0275d8", fontSize: "22px" }}>Basic Principles of First Aid</h2>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li style={{ marginBottom: "8px" }}>🔹 <strong>Protection:</strong> Ensuring environmental safety.</li>
+        <li style={{ marginBottom: "8px" }}>🔹 <strong>Notification:</strong> Activating emergency systems (112, 911, etc.).</li>
+        <li>🔹 <strong>Rescue:</strong> Intervening to help the patient.</li>
+      </ul>
+
+      <h2 style={{ color: "#5cb85c", fontSize: "22px" }}>First Aid Provider Qualities</h2>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li style={{ marginBottom: "8px" }}>✔️ Must have basic knowledge of the human body.</li>
+        <li style={{ marginBottom: "8px" }}>✔️ Protect their own life safety first.</li>
+        <li style={{ marginBottom: "8px" }}>✔️ Stay calm, confident, and practical.</li>
+        <li>✔️ Evaluate available possibilities.</li>
+      </ul>
+
+      <h2 style={{ color: "#f0ad4e", fontSize: "22px" }}>Key Aims of First Aid</h2>
+      <ol style={{ fontSize: "18px", paddingLeft: "20px" }}>
+        <li><strong>Preserve life:</strong> Save lives and minimize the threat of death.</li>
+        <li><strong>Prevent further harm:</strong> Prevent the condition from worsening.</li>
+        <li><strong>Promote recovery:</strong> Start the recovery process and complete minor treatments.</li>
+      </ol>
+    </div>
+
+<div
+style={{
+  fontFamily: "'Poppins', sans-serif",
+  color: "#333",
+  padding: "30px",
+  lineHeight: "1.8",
+  background: "linear-gradient(to right, #ffffff, #f1f1f1)",
+  borderRadius: "12px",
+  boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+}}
+>
+<h1
+  style={{
+    color: "#d9534f",
+    textAlign: "center",
+    textTransform: "uppercase",
+    fontSize: "28px",
+    fontWeight: "bold",
+    letterSpacing: "1px",
+    marginBottom: "20px",
+  }}
+>
+  Why is Time Important?
+</h1>
+
+<p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+  After cardiac and respiratory arrest, the brain can withstand oxygen deficiency for up to 4 minutes:
+</p>
+
+<ul
+  style={{
+    listStyle: "none",
+    paddingLeft: "0px",
+    fontSize: "18px",
+    textAlign: "center",
+    marginBottom: "20px",
+  }}
+>
+  <li style={{ background: "#f8d7da", padding: "8px", borderRadius: "8px" }}>🕐 0-1 min: Cardiac arrest</li>
+  <li style={{ background: "#f5c6cb", padding: "8px", borderRadius: "8px" }}>🕑 0-4 min: No brain damage</li>
+  <li style={{ background: "#f1b0b7", padding: "8px", borderRadius: "8px" }}>🕒 4-6 min: Brain injury onset</li>
+  <li style={{ background: "#ec9a9f", padding: "8px", borderRadius: "8px" }}>🕓 6-10 min: Progressive brain injury</li>
+  <li style={{ background: "#e57373", padding: "8px", borderRadius: "8px" }}>🕙 10+ min: Permanent brain damage</li>
+</ul>
+
+<h2 style={{ color: "#0275d8", fontSize: "22px" }}>Golden Hour</h2>
+<p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+  The **first 30 minutes after an accident** is known as the **Golden Hour** – timely intervention during this period significantly increases survival chances.
+</p>
+
+<h2 style={{ color: "#5cb85c", fontSize: "22px" }}>The 3 C’s of First Aid</h2>
+<ol
+  style={{
+    fontSize: "18px",
+    paddingLeft: "20px",
+    marginBottom: "20px",
+  }}
+>
+  <li><strong>Check:</strong> Check for responsiveness and evaluate the scene.</li>
+  <li><strong>Call:</strong> Call emergency services immediately.</li>
+  <li><strong>Care:</strong> Provide immediate care, such as **30 chest compressions**.</li>
+</ol>
+
+<h2 style={{ color: "#f0ad4e", fontSize: "22px" }}>Calling Emergency Lines</h2>
+<p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+  When calling emergency services, follow these key guidelines:
+</p>
+<ul style={{ fontSize: "18px", paddingLeft: "20px", marginBottom: "20px" }}>
+  <li>☎️ Stay calm and speak clearly.</li>
+  <li>📍 Provide an **exact location** or a well-known landmark.</li>
+  <li>📞 State your name, phone number, and the number of victims.</li>
+  <li>💉 Describe the injuries and any first aid provided.</li>
+  <li>📢 Do **not hang up** until the emergency operator says so.</li>
+</ul>
+
+<h2 style={{ color: "#d9534f", fontSize: "22px" }}>First Aid Action Plan</h2>
+<p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+  The **First Aid Action Plan** consists of:
+</p>
+<ul style={{ fontSize: "18px", paddingLeft: "20px", marginBottom: "20px" }}>
+  <li>🔹 **Primary assessment (DRSABCD).**</li>
+  <li>🔹 **Specific care** for injuries or medical conditions.</li>
+  <li>🔹 **General care**, including warmth, monitoring, and reassurance.</li>
+  <li>🔹 **Handover to advanced medical care.**</li>
+</ul>
+
+<h2 style={{ color: "#0275d8", fontSize: "22px" }}>DRSABCD Approach</h2>
+<p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+  The **DRSABCD** method helps first aiders **identify and treat** casualties effectively:
+</p>
+<ul style={{ fontSize: "18px", paddingLeft: "20px", marginBottom: "20px" }}>
+  <li>🚨 **D** – Check for <strong>Dangers</strong></li>
+  <li>🤔 **R** – Check for <strong>Response</strong></li>
+  <li>📞 **S** – <strong>Send for Help</strong></li>
+  <li>😮 **A** – Open the <strong>Airway</strong></li>
+  <li>💨 **B** – Check for <strong>Breathing</strong></li>
+  <li>❤️ **C** – Begin <strong>CPR (Circulation)</strong></li>
+  <li>⚡ **D** – Apply <strong>Defibrillation</strong> if available</li>
+</ul>
+
+<h2 style={{ color: "#5cb85c", fontSize: "22px" }}>Universal Precaution Rule</h2>
+<p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+  Always **assume that all bodily fluids are potentially infectious**. Use protective barriers (gloves, masks) to minimize risk.
+</p>
+</div>
+    </div>
+  
+,
+    quiz:[
+      {
+        question: "What is the primary purpose of first aid?",
+        options: [
+          "To replace professional medical treatment",
+          "To provide immediate care until medical help arrives",
+          "To diagnose diseases"
+        ],
+        correctAnswer: "To provide immediate care until medical help arrives"
+      },
+      {
+        question: "Which of the following is NOT a guiding principle of first aid?",
+        options: [
+          "Prevent further injury",
+          "Preserve life",
+          "Delay medical care"
+        ],
+        correctAnswer: "Delay medical care"
+      },
+      {
+        question: "First aid should be performed until...",
+        options: [
+          "The victim recovers completely",
+          "The next level of medical care arrives",
+          "The first aider feels tired"
+        ],
+        correctAnswer: "The next level of medical care arrives"
+      },
+      {
+        question: "What does 'Golden Hour' refer to in first aid?",
+        options: [
+          "The first 30 minutes after an accident",
+          "The time taken for medical personnel to arrive",
+          "The last hour of the day"
+        ],
+        correctAnswer: "The first 30 minutes after an accident"
+      },
+      {
+        question: "What does the 'C' in the 3 C’s of first aid stand for?",
+        options: [
+          "Cardiac",
+          "Care",
+          "Compression"
+        ],
+        correctAnswer: "Care"
+      },
+      {
+        question: "In first aid, which step comes first?",
+        options: [
+          "Calling emergency services",
+          "Checking the scene and victim",
+          "Providing CPR"
+        ],
+        correctAnswer: "Checking the scene and victim"
+      },
+      {
+        question: "What is an emergency intervention?",
+        options: [
+          "First aid provided at the scene",
+          "Medical treatment performed by doctors and health personnel",
+          "Any treatment done at home"
+        ],
+        correctAnswer: "Medical treatment performed by doctors and health personnel"
+      },
+      {
+        question: "What should be done when calling an emergency line?",
+        options: [
+          "Provide exact location and describe the victim’s condition",
+          "Hang up after reporting the accident",
+          "Shout for help instead of calling"
+        ],
+        correctAnswer: "Provide exact location and describe the victim’s condition"
+      },
+      {
+        question: "What is the first step in DRSABCD?",
+        options: [
+          "Check for response",
+          "Check for dangers",
+          "Open the airway"
+        ],
+        correctAnswer: "Check for dangers"
+      },
+      {
+        question: "How long can the brain typically survive without oxygen before permanent damage starts?",
+        options: [
+          "2 minutes",
+          "4 minutes",
+          "10 minutes"
+        ],
+        correctAnswer: "4 minutes"
+      },
+      {
+        question: "What is the main difference between first aid and emergency treatment?",
+        options: [
+          "First aid requires medical equipment",
+          "Emergency treatment is provided by trained medical personnel",
+          "First aid is only for minor injuries"
+        ],
+        correctAnswer: "Emergency treatment is provided by trained medical personnel"
+      },
+      {
+        question: "What is the correct order of the 3 C’s of first aid?",
+        options: [
+          "Care, Check, Call",
+          "Check, Call, Care",
+          "Call, Care, Check"
+        ],
+        correctAnswer: "Check, Call, Care"
+      },
+      {
+        question: "What is the key aim of first aid?",
+        options: [
+          "Preserve life, prevent further harm, and promote recovery",
+          "Diagnose illnesses and prescribe medicine",
+          "Replace professional medical care"
+        ],
+        correctAnswer: "Preserve life, prevent further harm, and promote recovery"
+      },
+      {
+        question: "What does 'D' stand for in DRSABCD?",
+        options: [
+          "Danger",
+          "Diagnosis",
+          "Drug administration"
+        ],
+        correctAnswer: "Danger"
+      },
+      {
+        question: "When providing first aid, a first aider should always...",
+        options: [
+          "Wait for a doctor before helping",
+          "Panic and act quickly",
+          "Stay calm and assess the situation"
+        ],
+        correctAnswer: "Stay calm and assess the situation"
+      },
+      {
+        question: "Which of these is a basic principle of first aid?",
+        options: [
+          "Protection",
+          "Panic",
+          "Passive observation"
+        ],
+        correctAnswer: "Protection"
+      },
+      {
+        question: "What should you NOT do while providing first aid?",
+        options: [
+          "Provide immediate care",
+          "Keep the victim calm",
+          "Move the victim unnecessarily"
+        ],
+        correctAnswer: "Move the victim unnecessarily"
+      },
+      {
+        question: "Which number is commonly used to call emergency services worldwide?",
+        options: [
+          "911",
+          "123",
+          "432"
+        ],
+        correctAnswer: "911"
+      },
+      {
+        question: "What is one of the responsibilities of a first aider?",
+        options: [
+          "Provide medical prescriptions",
+          "Protect their own safety first",
+          "Ignore minor injuries"
+        ],
+        correctAnswer: "Protect their own safety first"
+      },
+      {
+        question: "What does 'ABC' stand for in first aid?",
+        options: [
+          "Airway, Breathing, Circulation",
+          "Alert, Balance, Call",
+          "Assess, Bandage, Call"
+        ],
+        correctAnswer: "Airway, Breathing, Circulation"
+      },
+      {
+        question: "What is NOT part of the first aid action plan?",
+        options: [
+          "General care",
+          "Specific care",
+          "Conducting surgery"
+        ],
+        correctAnswer: "Conducting surgery"
+      },
+      {
+        question: "What should be done first when a person is unresponsive and not breathing?",
+        options: [
+          "Provide CPR",
+          "Call emergency services",
+          "Check for injuries"
+        ],
+        correctAnswer: "Call emergency services"
+      },
+      {
+        question: "Why should a victim’s wound be covered?",
+        options: [
+          "To prevent infection and bleeding",
+          "To keep the wound warm",
+          "To make the injury invisible"
+        ],
+        correctAnswer: "To prevent infection and bleeding"
+      },
+      {
+        question: "What should you do if you see a serious accident?",
+        options: [
+          "Run away",
+          "Assess the situation and call emergency services",
+          "Move the victims immediately"
+        ],
+        correctAnswer: "Assess the situation and call emergency services"
+      },
+      {
+        question: "Which is a key characteristic of a first aider?",
+        options: [
+          "Being aggressive",
+          "Staying calm and confident",
+          "Ignoring minor injuries"
+        ],
+        correctAnswer: "Staying calm and confident"
+      },
+      {
+        question: "What does 'S' stand for in DRSABCD?",
+        options: [
+          "Send for help",
+          "Shock treatment",
+          "Stop bleeding"
+        ],
+        correctAnswer: "Send for help"
+      },
+      {
+        question: "Why is first aid important in emergencies?",
+        options: [
+          "It replaces the need for a doctor",
+          "It increases survival chances and reduces complications",
+          "It delays medical treatment"
+        ],
+        correctAnswer: "It increases survival chances and reduces complications"
+      },
+      {
+        question: "What should you do when helping someone with a suspected broken bone?",
+        options: [
+          "Move them immediately",
+          "Stabilize the injured area and seek medical help",
+          "Give them food and water"
+        ],
+        correctAnswer: "Stabilize the injured area and seek medical help"
+      },
+      {
+        question: "What is the main goal of CPR?",
+        options: [
+          "Restart the heart and maintain blood circulation",
+          "Provide relaxation",
+          "Reduce stress levels"
+        ],
+        correctAnswer: "Restart the heart and maintain blood circulation"
+      }
+    ]
+    
+  },
 
   // Add more courses here as needed
 ];
