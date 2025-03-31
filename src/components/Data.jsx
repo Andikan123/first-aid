@@ -1416,6 +1416,481 @@ export const courses = [
       }
     ]
   },
+  {
+    id: 5,
+    title: "Patient Transport The Intra- And Inter-Hospital",
+    description: "Patient Transport",
+    video: "https://path/to/video.mp4", // Link to a video
+    content:
+    <div style={{
+      fontFamily: "'Playfair Display', sans-serif",
+      lineHeight: '1.8',
+      fontSize: '18px',
+      color: '#333',
+      backgroundColor: '#f8f9fa',
+      padding: '20px',
+      borderRadius: '12px',
+      boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+      maxWidth: '900px',
+      margin: '20px auto',
+      textAlign: 'justify'
+  }}>
+      <h2 style={{ color: '#007bff', textAlign: 'center', marginBottom: '15px' }}>
+          Patient Transfer Guidelines
+      </h2>
+  
+      <p>The intra- and inter-hospital patient transfer is an important aspect of patient care which is often undertaken to improve upon the existing management of the patient.</p>
+  
+      <p style={{ fontWeight: 'bold', color: '#dc3545' }}>
+          The decision to transfer the patient is important and difficult.
+      </p>
+  
+      <p>The decision to transfer the patient is taken by a senior consultant level doctor after thorough discussion with patient's relatives about the benefits and risks involved.</p>
+  
+      <p>In some countries, dedicated critical care transfer groups have been established to coordinate and facilitate the patient transfer. These groups also arrange appropriate facilities at the receiving hospital.</p>
+  
+      <h3 style={{ color: '#17a2b8', marginTop: '20px' }}>Important Communication Before Transfer:</h3>
+      <ul style={{ paddingLeft: '20px' }}>
+          <li>Patient's clinical condition</li>
+          <li>Treatment being given</li>
+          <li>Reasons for transfer</li>
+          <li>Mode of transfer</li>
+          <li>Timeline of transfer (in a written document)</li>
+      </ul>
+  
+      <h3 style={{ color: '#28a745', marginTop: '20px' }}>Reasons for Transfer:</h3>
+      <ul style={{ paddingLeft: '20px' }}>
+          <li>If the clinics are not enough</li>
+          <li>If intensive care is not sufficient in terms of capacity and technology</li>
+          <li>If there is no specialist in the hospital</li>
+          <li>Hospital infection problems</li>
+          <li>Pandemics</li>
+          <li>Lack of new technological tools for diagnosis</li>
+          <li>Patient's request</li>
+          <li>Family's request</li>
+          <li>Financial problems</li>
+      </ul>
+  
+      <h3 style={{ color: '#ffc107', marginTop: '20px' }}>Transfer Criteria:</h3>
+      <p style={{ fontWeight: 'bold', color: '#dc3545' }}>
+          If any of the following criteria are not met, the patient cannot be transferred:
+      </p>
+      
+      <ul style={{ paddingLeft: '20px' }}>
+          <li><strong>Patient:</strong> If the patient does not show stability in hemodynamics, respiratory function, and tissue oxygenation, or is at risk for active bleeding.</li>
+          <li><strong>Technical:</strong> If sufficient technical equipment cannot be provided during transfer.</li>
+          <li><strong>Institutional:</strong> If continuity of patient care cannot be maintained at the receiving institution.</li>
+      </ul>
+  
+      <p>If the service for the patient cannot be met and the patient does not meet the transfer criteria, care and treatment are continued in the current unit.</p>
+  
+      <h3 style={{ color: '#6610f2', marginTop: '20px' }}>Transfer Authorization:</h3>
+      <p>The decision to transfer is given by the patient's physician and the patient/patient relatives.</p>
+      
+      <p>The physician informs the patient and their relatives about the transfer, its risks, and obtains transfer approval.</p>
+  
+      <p style={{ fontWeight: 'bold', color: '#dc3545' }}>
+          If the patient insists on transfer despite medical objections, they must write and sign a formal request in their file.
+      </p>
+  
+      <h3 style={{ color: '#17a2b8', marginTop: '20px' }}>Hospital to Diagnostic Centers Transfer:</h3>
+      <p>For patients transferred to contracted diagnostic centers, the relevant medical staff will contact the imaging center to schedule the procedure.</p>
+  
+      <p>The patient is transported to the diagnostic center in a patient transport vehicle, accompanied by health personnel, and delivered to the relevant unit upon arrival.</p>
+  
+      <h3 style={{ color: '#28a745', marginTop: '20px' }}>Medical Precautions During Transfer:</h3>
+      <ul style={{ paddingLeft: '20px' }}>
+          <li>Emergency Response Kit is prepared based on patient’s medical condition.</li>
+          <li>Continuous monitoring of heart rhythm using transport monitor or defibrillator.</li>
+          <li>Patients transported for diagnostic/therapeutic interventions within or outside the hospital.</li>
+          <li>Essential management of airway, respiration, circulation, and cervical immobilization.</li>
+          <li>Continuous recording of vital signs during transport.</li>
+      </ul>
+  
+      <h3 style={{ color: '#ffc107', marginTop: '20px' }}>Staff & Equipment Considerations:</h3>
+      <p>The accompanying personnel and equipment must be selected to meet and maintain the patient’s acute care needs.</p>
+  
+      <h3 style={{ color: '#dc3545', marginTop: '20px' }}>Principles of Patient Transfer:</h3>
+      <p style={{ fontWeight: 'bold', textAlign: 'center', fontSize: '20px', color: '#dc3545' }}>
+          Right Patient for the Right Procedure by the Right Doctor
+      </p>
+      <div style={{
+    fontFamily: 'Arial, sans-serif',
+    lineHeight: '1.8',
+    fontSize: '18px',
+    color: '#333',
+    backgroundColor: '#ffffff',
+    padding: '20px',
+    borderRadius: '12px',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    maxWidth: '900px',
+    margin: '20px auto',
+    textAlign: 'justify',
+    borderLeft: '6px solid #007bff'
+}}>
+    <h2 style={{ color: '#007bff', textAlign: 'center', marginBottom: '15px', fontWeight: 'bold' }}>
+        LEVEL OF TRANSFER
+    </h2>
+
+    <h3 style={{ color: '#28a745', marginBottom: '10px' }}>Independent Transfers</h3>
+    <p>The patient consistently performs all aspects of the transfer, including setup, in a safe manner and without assistance.</p>
+
+    <h3 style={{ color: '#ffc107', marginBottom: '10px' }}>Assisted Transfers</h3>
+    <p>The patient actively participates, but also requires assistance from a clinician(s).</p>
+
+    <h3 style={{ color: '#dc3545', marginBottom: '10px' }}>Dependent Transfers</h3>
+    <p>The patient does not participate actively, or only minimally, and the clinician(s) perform all aspects of the transfer.</p>
+
+    <h3 style={{ color: '#6610f2', marginTop: '20px' }}>Risk Factors Related to Patient</h3>
+    <p>The caregiver must assess the patient’s ability or inability to communicate. The risk of injury increases if the patient:</p>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li>Does not speak/understand the same language as the caregiver</li>
+        <li>Does not understand speech</li>
+        <li>Does not understand non-verbal communication</li>
+        <li>Cannot follow simple commands</li>
+    </ul>
+
+    <p style={{ fontWeight: 'bold', color: '#dc3545' }}>
+        Proper and meticulous preparation and stabilization of the patient should be done before transfer to prevent any adverse events or deterioration in the patient's clinical condition.
+    </p>
+
+    <h3 style={{ color: '#17a2b8', marginTop: '20px' }}>Pre-Transfer Checklist</h3>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li>Check and control all transfer materials</li>
+        <li>Ensure all necessary drugs for patient stability are available</li>
+        <li>Patient's A, B, C, and D (Airway, Breathing, Circulation, Disability) should be assessed and corrected</li>
+    </ul>
+
+    <h3 style={{ color: '#28a745', marginTop: '20px' }}>Transfer Drugs</h3>
+    <p>These medications must be available for monitoring and stabilization:</p>
+    <div style={{
+        backgroundColor: '#f8f9fa',
+        padding: '10px',
+        borderRadius: '8px',
+        boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
+    }}>
+        <p style={{ fontWeight: 'bold', color: '#007bff' }}>Adrenaline, Atropine amp, Dopamine amp, Diltiazem amp, Digoxin amp, Mannitol, Prednol amp, Magnesium amp, Potassium amp, Serum Physiological amp, Sodium Bicarbonate amp, Calcium Gluconate amp</p>
+    </div>
+
+    <h3 style={{ color: '#ffc107', marginTop: '20px' }}>Transfer Preparation</h3>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li>Repeat physical examination</li>
+        <li>Ensure patient monitoring</li>
+        <li>Gather all previous patient examinations</li>
+        <li>Verify patient identity and correct transfer details</li>
+        <li>Ensure airway clearance and safety</li>
+        <li>Inform patient’s relatives and obtain written consent</li>
+        <li>Ensure at least two vascular access points</li>
+    </ul>
+
+    <h3 style={{ color: '#17a2b8', marginTop: '20px' }}>Monitorization During Transfer</h3>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li>ECG monitoring</li>
+        <li>Blood pressure</li>
+        <li>Oxygen saturation</li>
+        <li>Body temperature</li>
+        <li>CVP catheter monitoring (if applicable)</li>
+        <li>Record all interventions</li>
+    </ul>
+
+    <h3 style={{ color: '#6610f2', marginTop: '20px' }}>Handover & Transfer Documentation</h3>
+    <p>Upon reaching the transferring hospital, a **formal handover** should occur between the receiving and transferring teams.</p>
+    <p style={{ fontWeight: 'bold', color: '#dc3545' }}>
+        Handover must include **both written and oral** information.
+    </p>
+    <p>All patient details, medical history, and examination results should be properly documented.</p>
+
+    <h3 style={{ color: '#28a745', marginTop: '20px' }}>Modes of Transfer</h3>
+    <p>Patients can be transported via **ground transport** (ambulance, Mobile Intensive Care Unit - MICU) or **air transport** (helicopter or aeroplane ambulances).</p>
+
+    <h4 style={{ color: '#007bff', marginTop: '15px' }}>Ground Transport:</h4>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li><strong>Basic Life-Support Ambulance:</strong> For non-life-threatening conditions with basic monitoring devices.</li>
+        <li><strong>Advanced Life-Support Ambulance:</strong> Equipped with **intubation, cardiac monitoring, defibrillation, and IV administration** for critically ill patients.</li>
+        <li><strong>Mobile Intensive Care Unit (MICU):</strong> A specialized vehicle fully equipped for critically ill patient transfers.</li>
+    </ul>
+
+    <h4 style={{ color: '#dc3545', marginTop: '15px' }}>Air Transport:</h4>
+    <p>Air transport has increased in use due to its rapid speed and ability to provide specialized medical care mid-flight.</p>
+</div>
+
+<div style={{
+     fontFamily: "'Poppins', sans-serif",
+    lineHeight: '1.8',
+    fontSize: '18px',
+    color: '#333',
+    backgroundColor: '#ffffff',
+    padding: '20px',
+    borderRadius: '12px',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+    maxWidth: '1000px',
+    margin: '20px auto',
+    textAlign: 'justify',
+    borderLeft: '6px solid #007bff'
+}}>
+    <h2 style={{ color: '#007bff', textAlign: 'center', marginBottom: '15px', fontWeight: 'bold' }}>
+        Safe & Efficient Patient Transfer
+    </h2>
+
+    <p style={{ fontWeight: 'bold', color: '#dc3545', textAlign: 'center' }}>
+        The transfer team must be well-prepared to prevent potential adversities during patient transport.
+    </p>
+
+    <h3 style={{ color: '#28a745', marginBottom: '10px' }}>Transfer Team Responsibilities</h3>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li>Ensure knowledge and skills in **Basic Life Support (BLS) and Advanced Life Support (ALS)**.</li>
+        <li>Anticipate and mitigate potential complications during transportation.</li>
+        <li>Communicate effectively with the receiving medical team.</li>
+    </ul>
+
+    <h2 style={{ color: '#007bff', marginTop: '20px', textAlign: 'center' }}>In-Hospital Transport</h2>
+    <h3 style={{ color: '#ffc107' }}>Emergency Department Transfer Process</h3>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li>The patient's initial treatment is done in the **emergency department**.</li>
+        <li>The emergency doctor informs the patient/family and decides on transfer.</li>
+        <li>If transferring to a clinic, the emergency room nurse notifies the clinic nurse.</li>
+        <li>The **Patient Transfer Form** is completed, documenting medical history, treatment, and clinical details.</li>
+        <li>The patient is transferred via **wheelchair or stretcher** by the transport staff and nurse.</li>
+    </ul>
+
+    <h3 style={{ color: '#dc3545' }}>Intensive Care Unit (ICU) Transfer</h3>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li>The ICU physician evaluates the patient and approves the transfer.</li>
+        <li>The ICU nurse is informed and prepares necessary equipment.</li>
+        <li>During transfer, **oxygen supply, emergency kit, and transport monitor/defibrillator** are used.</li>
+        <li>Upon arrival, patient details and medical records are handed over to the ICU nurse.</li>
+    </ul>
+
+    <h3 style={{ color: '#6610f2' }}>Operating Room Transfer</h3>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li>The surgical decision is made, and the **clinic nurse** escorts the patient.</li>
+        <li>Preoperative assessments and diagnosis results are documented.</li>
+        <li>The **patient is transferred via stretcher**, with critical cases accompanied by a physician.</li>
+        <li>Clear **oral and written communication** ensures a smooth handover to the surgical team.</li>
+    </ul>
+
+    <h2 style={{ color: '#007bff', textAlign: 'center', marginTop: '20px' }}>Key Aspects of Safe Transfer</h2>
+    
+    <h3 style={{ color: '#28a745' }}>1. Effective Communication</h3>
+    <p>Proper communication between medical teams ensures **continuity of care and patient safety**.</p>
+
+    <h3 style={{ color: '#ffc107' }}>2. Patient Stabilization</h3>
+    <p>Vital signs must be **within a safe range** before initiating the transfer to reduce complications.</p>
+
+    <h3 style={{ color: '#dc3545' }}>3. Choosing the Right Transfer Mode</h3>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li><strong>External Transfers:</strong> Helicopter, ambulance</li>
+        <li><strong>Internal Transfers:</strong> Stretcher, wheelchair, or assisted walking</li>
+    </ul>
+
+    <h3 style={{ color: '#6610f2' }}>4. Proper Documentation</h3>
+    <p>All medical interventions, medications, and changes in patient condition during transfer must be **accurately recorded**.</p>
+
+    <h2 style={{ color: '#007bff', textAlign: 'center', marginTop: '20px' }}>Long-Distance Aeromedical Transport</h2>
+    <p style={{ fontWeight: 'bold', color: '#dc3545' }}>
+        Transporting highly infectious patients over long distances presents significant logistical and medical challenges.
+    </p>
+
+    <h3 style={{ color: '#28a745' }}>Advancements in Aeromedical Transport</h3>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li>Following the **2014–2016 Ebola Crisis**, isolation chambers have been developed for air transport.</li>
+        <li>During the **COVID-19 pandemic**, **Portable Medical Isolation Units (PMIUs)** have been widely used.</li>
+        <li>Ambulances, helicopters, and aircraft must have **specialized infection control measures**.</li>
+    </ul>
+
+    <h3 style={{ color: '#ffc107' }}>Challenges in Air Transport</h3>
+    <ul style={{ paddingLeft: '20px' }}>
+        <li>Confined spaces in **aircraft and helicopters** make infection control difficult.</li>
+        <li>Prolonged transport times require **continuous patient monitoring**.</li>
+        <li>Specialized air ambulances must be equipped for **critical care interventions**.</li>
+    </ul>
+
+    <h2 style={{ color: '#007bff', textAlign: 'center', marginTop: '20px' }}>Essential Equipment for Air Ambulance</h2>
+
+    <div style={{
+        backgroundColor: '#f8f9fa',
+        padding: '10px',
+        borderRadius: '8px',
+        boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+        marginBottom: '20px'
+    }}>
+        <ul style={{ paddingLeft: '20px', fontWeight: 'bold', color: '#007bff' }}>
+            <li>🚑 **Stretcher** – Essential for patient transport</li>
+            <li>⚡ **Defibrillator** – Restores normal heart rhythm</li>
+            <li>🏥 **ICU Setup** – Life support for critical patients</li>
+            <li>💓 **ECG Machine** – Monitors heart activity</li>
+            <li>💨 **Portable Oxygen Cylinder** – Ensures oxygen supply</li>
+            <li>💾 **Pacemaker** – Regulates heart rhythm</li>
+            <li>🫁 **Ventilator** – Supports breathing</li>
+            <li>🩸 **Suction Machine** – Clears airways</li>
+            <li>💊 **Nebulizer Machine** – Administers medications for respiratory patients</li>
+        </ul>
+    </div>
+
+    <h2 style={{ color: '#007bff', textAlign: 'center', marginTop: '20px' }}>Conclusion</h2>
+    <p style={{ fontWeight: 'bold', textAlign: 'center', color: '#28a745' }}>
+        A successful patient transfer depends on **clear communication, proper stabilization, appropriate transport mode, and meticulous documentation**.
+    </p>
+</div>
+
+
+  </div>
+  
+,
+    quiz:[
+      {
+        question: "Who is responsible for deciding to transfer a patient?",
+        options: ["A junior doctor", "A senior consultant", "The hospital administrator"],
+        correctAnswer: "A senior consultant",
+      },
+      {
+        question: "What is the primary goal of patient transfer?",
+        options: ["Reducing hospital expenses", "Improving patient management", "Increasing hospital capacity"],
+        correctAnswer: "Improving patient management",
+      },
+      {
+        question: "Which factor is NOT a common reason for transferring a patient?",
+        options: ["Lack of specialist care", "Financial problems", "Patient’s personal travel plans"],
+        correctAnswer: "Patient’s personal travel plans",
+      },
+      {
+        question: "What should be ensured before transferring a patient?",
+        options: ["The patient has stable vital signs", "The patient has paid all medical bills", "The patient has packed personal belongings"],
+        correctAnswer: "The patient has stable vital signs",
+      },
+      {
+        question: "Which of the following is a mode of patient transfer?",
+        options: ["Teleportation", "Air ambulance", "Submarine transport"],
+        correctAnswer: "Air ambulance",
+      },
+      {
+        question: "What is the most commonly used transport mode for critically ill patients?",
+        options: ["Basic life-support ambulance", "Mobile Intensive Care Unit (MICU)", "Personal vehicle"],
+        correctAnswer: "Mobile Intensive Care Unit (MICU)",
+      },
+      {
+        question: "Which document must be completed before patient transfer?",
+        options: ["Travel permit", "Patient Transfer Form", "Insurance form"],
+        correctAnswer: "Patient Transfer Form",
+      },
+      {
+        question: "Which professional should always accompany a critically ill patient during transfer?",
+        options: ["A hospital receptionist", "A trained medical personnel", "A hospital accountant"],
+        correctAnswer: "A trained medical personnel",
+      },
+      {
+        question: "What is the purpose of a pre-transfer checklist?",
+        options: ["Ensuring all hospital bills are paid", "Preventing any adverse events during transfer", "Recording the patient's food intake"],
+        correctAnswer: "Preventing any adverse events during transfer",
+      },
+      {
+        question: "Which equipment is essential for monitoring a patient during transport?",
+        options: ["Blood pressure monitor", "Television", "Refrigerator"],
+        correctAnswer: "Blood pressure monitor",
+      },
+      {
+        question: "What should be checked before patient transfer?",
+        options: ["Airway, breathing, circulation, and disability (ABCD)", "Weight and height of the patient", "Patient's mood and stress levels"],
+        correctAnswer: "Airway, breathing, circulation, and disability (ABCD)",
+      },
+      {
+        question: "Which of the following is NOT a transfer mode?",
+        options: ["Road ambulance", "Air ambulance", "Bicycle transport"],
+        correctAnswer: "Bicycle transport",
+      },
+      {
+        question: "What should be included in the patient handover process?",
+        options: ["Written and oral communication", "A personal letter from the patient", "Only verbal instructions"],
+        correctAnswer: "Written and oral communication",
+      },
+      {
+        question: "Which is NOT a required medication for patient transfer?",
+        options: ["Adrenaline", "Potassium ampoule", "Sleeping pills"],
+        correctAnswer: "Sleeping pills",
+      },
+      {
+        question: "Why is continuous monitoring necessary during transfer?",
+        options: ["To prevent deterioration in the patient's condition", "To keep the patient entertained", "To check if the patient is hungry"],
+        correctAnswer: "To prevent deterioration in the patient's condition",
+      },
+      {
+        question: "What must be established before transferring a ventilated patient?",
+        options: ["Continuous respiratory support", "An extra bed in the destination hospital", "An additional family member in the ambulance"],
+        correctAnswer: "Continuous respiratory support",
+      },
+      {
+        question: "Which ambulance is suitable for patients with non-life-threatening conditions?",
+        options: ["Advanced life-support ambulance", "Basic life-support ambulance", "Helicopter ambulance"],
+        correctAnswer: "Basic life-support ambulance",
+      },
+      {
+        question: "What must be documented during the transfer process?",
+        options: ["Patient’s complete medical history", "All interventions and medications given during the transfer", "The patient’s favorite meals"],
+        correctAnswer: "All interventions and medications given during the transfer",
+      },
+      {
+        question: "What is the most crucial factor in safe patient transfer?",
+        options: ["Proper communication among staff", "The type of ambulance used", "The distance to the new hospital"],
+        correctAnswer: "Proper communication among staff",
+      },
+      {
+        question: "Which of the following is a risk factor during patient transfer?",
+        options: ["Lack of communication", "Wearing comfortable clothes", "Traveling during the day"],
+        correctAnswer: "Lack of communication",
+      },
+      {
+        question: "What is the role of a defibrillator during transfer?",
+        options: ["Monitoring heart rate", "Restarting a stopped heart", "Checking blood sugar levels"],
+        correctAnswer: "Restarting a stopped heart",
+      },
+      {
+        question: "Why should a patient be stabilized before transfer?",
+        options: ["To prevent deterioration of health", "To ensure the patient can walk", "To save hospital costs"],
+        correctAnswer: "To prevent deterioration of health",
+      },
+      {
+        question: "Which of the following is a principle of safe transfer?",
+        options: ["Avoiding documentation", "Educating the receiving medical team", "Ignoring patient’s condition changes"],
+        correctAnswer: "Educating the receiving medical team",
+      },
+      {
+        question: "Which of these is NOT an intensive care transfer requirement?",
+        options: ["Oxygen support", "Defibrillator", "Personal luggage"],
+        correctAnswer: "Personal luggage",
+      },
+      {
+        question: "What does a Mobile Intensive Care Unit (MICU) include?",
+        options: ["A fully equipped vehicle for critically ill patients", "A vehicle with basic first aid only", "A personal driver with no medical knowledge"],
+        correctAnswer: "A fully equipped vehicle for critically ill patients",
+      },
+      {
+        question: "What must be ensured before transporting a COVID-19 patient?",
+        options: ["Proper isolation and protective measures", "That the patient signs a travel consent", "That the patient has a travel insurance"],
+        correctAnswer: "Proper isolation and protective measures",
+      },
+      {
+        question: "Which is a required step before moving a patient to surgery?",
+        options: ["Conducting preoperative evaluation", "Changing the patient’s clothing", "Asking the patient to call family members"],
+        correctAnswer: "Conducting preoperative evaluation",
+      },
+      {
+        question: "What should be done in case of a ventilated patient transfer?",
+        options: ["Use of a transport ventilator", "No special requirements are needed", "Patient should be disconnected from oxygen supply"],
+        correctAnswer: "Use of a transport ventilator",
+      },
+      {
+        question: "Why is handover between teams essential?",
+        options: ["To ensure continuity of care", "To finalize billing details", "To confirm hospital reputation"],
+        correctAnswer: "To ensure continuity of care",
+      },
+      {
+        question: "Which of the following is a key requirement for aeromedical transport?",
+        options: ["Availability of a proper isolation unit", "A large passenger capacity", "A commercial flight ticket"],
+        correctAnswer: "Availability of a proper isolation unit",
+      }
+    ]
+    
+  },
 
   // Add more courses here as needed
 ];
