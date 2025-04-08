@@ -1,5 +1,8 @@
 // src/Data.js
-
+import cprVideo from "../assets/videos/Video1.mp4"
+import cardiacArrrest from "../assets/Picture1.png"
+import dePaddles from "../assets/defibrPaddles.png"
+import video3 from "../assets/Video3.mp4"
 export const courses = [
   {
     id: 1,
@@ -2413,6 +2416,1308 @@ style={{
         correctAnswer: "Restart the heart and maintain blood circulation"
       }
     ]
+    
+  },
+  {
+    id: 7,
+    title: "Cardiopulmonary Resuscitation",
+    description: "CPR",
+    video: cprVideo,
+    content:
+    <>
+      <div
+      style={{
+        fontFamily: "'Poppins', sans-serif",
+        color: "#333",
+        padding: "30px",
+        lineHeight: "1.8",
+        background: "linear-gradient(to right, #ffffff, #f8f9fa)",
+        borderRadius: "12px",
+        boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+        maxWidth: "1200px",
+        margin: "auto",
+      }}
+    >
+      <h1
+        style={{
+          color: "#d9534f",
+          textAlign: "center",
+          textTransform: "uppercase",
+          fontSize: "32px",
+          fontWeight: "bold",
+          letterSpacing: "1px",
+          marginBottom: "30px",
+        }}
+      >
+        Cardiopulmonary Resuscitation (CPR)
+      </h1>
+
+      <p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+        Cardiopulmonary resuscitation (CPR) is a technique of basic life support for the purpose of oxygenation to the heart, lungs, and brain until the appropriate medical treatment can come and restore the normal cardiopulmonary function. It is a series of steps used to establish artificial ventilation and circulation in a patient who is not breathing and has no pulse.
+      </p>
+
+      <h2
+        style={{
+          color: "#0275d8",
+          textDecoration: "underline",
+          fontSize: "24px",
+          marginBottom: "20px",
+        }}
+      >
+        Purpose <span role="img" aria-label="purpose">🎯</span>
+      </h2>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li style={{ marginBottom: "12px" }}>
+          <span role="img" aria-label="restore">🔄</span> Restore cardiopulmonary functioning
+        </li>
+        <li>
+          <span role="img" aria-label="brain">🧠</span> Prevent irreversible brain damage from anoxia
+        </li>
+      </ul>
+
+      <h2
+        style={{
+          color: "#5cb85c",
+          fontSize: "24px",
+          marginBottom: "20px",
+        }}
+      >
+        Indications <span role="img" aria-label="indication">📋</span>
+      </h2>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li style={{ marginBottom: "12px" }}>
+          <span role="img" aria-label="cardiac-arrest">💔</span> Cardiac arrest
+        </li>
+        <li style={{ marginBottom: "12px" }}>
+          <span role="img" aria-label="respiratory-arrest">💨</span> Respiratory arrest
+        </li>
+        <li>
+          <span role="img" aria-label="combination">⚖️</span> Combination of both
+        </li>
+      </ul>
+
+      <h2
+        style={{
+          color: "#f0ad4e",
+          fontSize: "24px",
+          marginBottom: "20px",
+        }}
+      >
+        Definition of Cardiac Arrest <span role="img" aria-label="definition">📖</span>
+      </h2>
+      <p style={{ fontSize: "18px", marginBottom: "20px" }}>
+        Cardiac arrest is the loss of cardiac function, breathing, and consciousness. It can be caused by hypoxia, hypotension, hypothermia, hypoglycemia, acidosis, hypokalemia, cardiac tamponade (build-up of blood in the pericardial sac), tension pneumothorax, thromboembolism, or toxicity.
+      </p>
+
+      <h3 style={{ color: "#0275d8", fontSize: "22px", marginBottom: "12px" }}>
+        Causes of Cardiac Arrest <span role="img" aria-label="causes">⚡</span>
+      </h3>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li style={{ marginBottom: "12px" }}>Hypoxia (lack of oxygen)</li>
+        <li style={{ marginBottom: "12px" }}>Hypotension (low blood pressure)</li>
+        <li style={{ marginBottom: "12px" }}>Hypothermia (low body temperature)</li>
+        <li style={{ marginBottom: "12px" }}>Hypoglycemia (low blood sugar)</li>
+        <li style={{ marginBottom: "12px" }}>Acidosis</li>
+        <li style={{ marginBottom: "12px" }}>Hypokalemia (low potassium)</li>
+        <li style={{ marginBottom: "12px" }}>Cardiac tamponade</li>
+        <li style={{ marginBottom: "12px" }}>Tension pneumothorax</li>
+        <li style={{ marginBottom: "12px" }}>Thromboembolism</li>
+        <li>Toxicity</li>
+      </ul>
+
+      <h2
+        style={{
+          color: "#f0ad4e",
+          fontSize: "24px",
+          marginBottom: "20px",
+        }}
+      >
+        Diagnosis of Cardiac Arrest <span role="img" aria-label="diagnosis">🔬</span>
+      </h2>
+      <p style={{ fontSize: "18px", marginBottom: "20px" }}>
+        The diagnosis of cardiac arrest is typically made based on the triad of loss of consciousness, loss of apical and central pulsations (carotid, femoral), and apnea (no breathing). Blood pressure measurement, pulse detection on peripheral arteries, and auscultation of cardiac tones can lead to a delay in diagnosis, which is critical.
+      </p>
+
+      <h3 style={{ color: "#0275d8", fontSize: "22px", marginBottom: "12px" }}>
+        The Triad of Cardiac Arrest <span role="img" aria-label="triad">🔺</span>
+      </h3>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li style={{ marginBottom: "12px" }}>
+          <span role="img" aria-label="loss-of-consciousness">😵</span> Loss of consciousness
+        </li>
+        <li style={{ marginBottom: "12px" }}>
+          <span role="img" aria-label="loss-of-pulse">💔</span> Loss of apical and central pulsations (carotid, femoral)
+        </li>
+        <li>
+          <span role="img" aria-label="apnea">💤</span> Apnea (no breathing)
+        </li>
+      </ul>
+
+      <h2
+        style={{
+          color: "#0275d8",
+          fontSize: "24px",
+          marginBottom: "20px",
+        }}
+      >
+        How CPR Works <span role="img" aria-label="how-it-works">⚙️</span>
+      </h2>
+      <p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+        The air we breathe in travels to our lungs, where O₂ is picked up by our blood and then pumped by the heart to our tissues and organs. When a person experiences cardiac arrest, the heart goes from normal ventricular fibrillation and eventually ceases to beat altogether. This prevents O₂ from circulating throughout the body, rapidly killing cells and tissue. Therefore, CPR serves as an artificial heartbeat and artificial respirator.
+      </p>
+
+      <h3 style={{ color: "#f0ad4e", fontSize: "22px", marginBottom: "12px" }}>
+        CPR Survival Rates <span role="img" aria-label="survival-rate">📊</span>
+      </h3>
+      <p style={{ fontSize: "18px", marginBottom: "20px" }}>
+        CPR may not save the victim even when performed properly, but if started within 4 minutes of cardiac arrest and defibrillation is provided within 10 minutes, the person has a 40% chance of survival.
+      </p>
+    </div>
+
+    <div
+      style={{
+        fontFamily: "'Poppins', sans-serif",
+        color: "#333",
+        padding: "30px",
+        lineHeight: "1.8",
+        background: "linear-gradient(to right, #ffffff, #f8f9fa)",
+        borderRadius: "12px",
+        boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+        maxWidth: "1200px",
+        margin: "auto",
+      }}
+    >
+      <h1
+        style={{
+          color: "#d9534f",
+          textAlign: "center",
+          textTransform: "uppercase",
+          fontSize: "32px",
+          fontWeight: "bold",
+          letterSpacing: "1px",
+          marginBottom: "30px",
+        }}
+      >
+        Equipment and Phases of CPR
+      </h1>
+
+      <h2
+        style={{
+          color: "#0275d8",
+          fontSize: "24px",
+          marginBottom: "20px",
+        }}
+      >
+        Equipment <span role="img" aria-label="equipment">🛠️</span>
+      </h2>
+      <p style={{ fontSize: "18px", marginBottom: "20px" }}>
+        In a hospital setting, while a **hard surface** is all you need for CPR, a **crash cart** should be brought to the bedside. The crash cart should contain the following essential equipment:
+      </p>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li><span role="img" aria-label="airway">🫁</span> Airway equipment</li>
+        <li><span role="img" aria-label="suction">🧑‍⚕️</span> Suction equipment</li>
+        <li><span role="img" aria-label="iv">💉</span> Intravenous equipment</li>
+        <li><span role="img" aria-label="laboratory">🔬</span> Laboratory tubes and syringes</li>
+        <li><span role="img" aria-label="medication">💊</span> Prepacked medication for advanced life support</li>
+      </ul>
+
+      <h2
+        style={{
+          color: "#5cb85c",
+          fontSize: "24px",
+          marginBottom: "20px",
+        }}
+      >
+        Phases of Cardiopulmonary Resuscitation <span role="img" aria-label="phases">⚙️</span>
+      </h2>
+
+      <h3 style={{ color: "#0275d8", fontSize: "22px", marginBottom: "12px" }}>
+        Phase 1: Basic Life Support <span role="img" aria-label="basic-life-support">❤️</span>
+      </h3>
+      <p style={{ fontSize: "18px", marginBottom: "20px" }}>
+        Basic Life Support (BLS) involves life-saving techniques without the use of special equipment. The focus is on ensuring circulation, airway, and breathing.
+      </p>
+      <h4 style={{ fontSize: "20px", color: "#d9534f", marginBottom: "12px" }}>
+        Steps: <span role="img" aria-label="steps">📝</span>
+      </h4>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li><span role="img" aria-label="circulation">💓</span> Circulation</li>
+        <li><span role="img" aria-label="airway">🫁</span> Airways</li>
+        <li><span role="img" aria-label="breathing">💨</span> Breathing (CAB)</li>
+      </ul>
+
+      <h3 style={{ color: "#f0ad4e", fontSize: "22px", marginBottom: "12px" }}>
+        Phase 2: Advanced Cardiac Support <span role="img" aria-label="advanced-support">⚡</span>
+      </h3>
+      <p style={{ fontSize: "18px", marginBottom: "20px" }}>
+        Advanced Cardiac Support (ACS) requires special equipment like airway tools, endotracheal tubes, defibrillators, and medication for life support.
+      </p>
+      <h4 style={{ fontSize: "20px", color: "#d9534f", marginBottom: "12px" }}>
+        Steps: <span role="img" aria-label="steps">📝</span>
+      </h4>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li><span role="img" aria-label="drugs">💊</span> Drugs</li>
+        <li><span role="img" aria-label="ecg">📈</span> ECG</li>
+        <li><span role="img" aria-label="fibrillation">⚡</span> Fibrillation (DEF)</li>
+      </ul>
+
+      <h3 style={{ color: "#5cb85c", fontSize: "22px", marginBottom: "12px" }}>
+        Phase 3: Prolonged Support <span role="img" aria-label="prolonged-support">⏳</span>
+      </h3>
+      <p style={{ fontSize: "18px", marginBottom: "20px" }}>
+        Post-resuscitation care is critical to prevent complications and to support the body through recovery.
+      </p>
+      <h4 style={{ fontSize: "20px", color: "#d9534f", marginBottom: "12px" }}>
+        Steps: <span role="img" aria-label="steps">📝</span>
+      </h4>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li><span role="img" aria-label="care">🛌</span> Post-resuscitation care</li>
+      </ul>
+
+      <h2
+        style={{
+          color: "#0275d8",
+          fontSize: "24px",
+          marginBottom: "20px",
+        }}
+      >
+        Early Recognition of Cardiac Arrest <span role="img" aria-label="recognition">🔍</span>
+      </h2>
+      <p style={{ fontSize: "18px", marginBottom: "20px" }}>
+        Early recognition of cardiac arrest is crucial for a successful resuscitation. The following assessments are important:
+      </p>
+      <ul style={{ listStyle: "none", paddingLeft: "0px", fontSize: "18px" }}>
+        <li><span role="img" aria-label="unresponsiveness">😵‍💫</span> Unresponsiveness: Check the victim for a response. Shake the shoulders gently, and ask, "Are you alright?"</li>
+        <li><span role="img" aria-label="breathing">💨</span> Breathing: No breathing or only gasping.</li>
+        <li><span role="img" aria-label="pulse">💔</span> No pulse: No pulse felt within 10 seconds.</li>
+      </ul>
+
+      <h3 style={{ fontSize: "20px", color: "#d9534f", marginTop: "20px" }}>
+        Important Note: CPR Sequence Changes from ABC to CAB <span role="img" aria-label="note">📝</span>
+      </h3>
+      <p style={{ fontSize: "18px", fontStyle: "italic", marginBottom: "20px" }}>
+        The sequence of CPR has changed from ABC (Airway, Breathing, Circulation) to CAB (Circulation, Airway, Breathing). Circulation takes priority in order to provide blood flow to vital organs before addressing the airway and breathing.
+      </p>
+    </div>
+
+    <div
+      style={{
+        fontFamily: "'Poppins', sans-serif",
+        background: "linear-gradient(to right, #ffffff, #e9ecef)",
+        padding: "40px",
+        borderRadius: "15px",
+        boxShadow: "0px 8px 20px rgba(0, 0, 0, 0.1)",
+        lineHeight: "1.8",
+        color: "#333",
+      }}
+    >
+      <h1
+        style={{
+          color: "#d9534f",
+          textAlign: "center",
+          textTransform: "uppercase",
+          fontSize: "28px",
+          fontWeight: "bold",
+          letterSpacing: "1px",
+          marginBottom: "30px",
+        }}
+      >
+        Chest Compressions (Cardiac Massage)
+      </h1>
+
+      <p style={{ fontSize: "18px", textAlign: "justify", marginBottom: "20px" }}>
+        The human brain cannot survive more than 3 minutes without circulation.
+        Hence, chest compressions must be initiated immediately for any patient with absent central pulsation.
+      </p>
+
+      <h2
+        style={{
+          color: "#0275d8",
+          fontSize: "24px",
+          fontWeight: "bold",
+          marginBottom: "20px",
+        }}
+      >
+        Techniques of Chest Compressions
+      </h2>
+
+      <ol style={{ fontSize: "18px", paddingLeft: "20px", marginBottom: "30px" }}>
+        <li style={{ marginBottom: "10px" }}>
+          <strong>Step 1:</strong> Place the patient on a hard surface (e.g., a wooden board).
+        </li>
+        <li style={{ marginBottom: "10px" }}>
+          <strong>Step 2:</strong> Position one hand in the concavity of the lower half of the sternum, about 2 fingers above the xiphoid process. <i>(Avoid the xiphisternal junction to prevent injury)</i>
+        </li>
+        <li style={{ marginBottom: "10px" }}>
+          <strong>Step 3:</strong> Place the other hand on top of the first hand.
+        </li>
+        <li style={{ marginBottom: "10px" }}>
+          <strong>Step 4:</strong> Position your shoulders directly over your hands, with elbows locked straight and arms extended. Use your upper body weight to apply compressions.
+        </li>
+        <li style={{ marginBottom: "10px" }}>
+          <strong>Step 5:</strong> Compress the sternum to a depth of at least 5 cm for adults, 2-4 cm for children, and 1-2 cm for infants.
+        </li>
+        <li style={{ marginBottom: "10px" }}>
+          <strong>Step 6:</strong> Push hard and fast at a rate of 100-120 compressions per minute.
+        </li>
+      </ol>
+
+      <h2
+        style={{
+          color: "#f0ad4e",
+          fontSize: "22px",
+          fontWeight: "bold",
+          marginBottom: "20px",
+        }}
+      >
+        CPR Ratios
+      </h2>
+
+      <ul style={{ fontSize: "18px", paddingLeft: "20px", marginBottom: "30px" }}>
+        <li style={{ marginBottom: "10px" }}>
+          Single rescuer: <strong>30:2</strong> (chest compressions to ventilations)
+        </li>
+        <li style={{ marginBottom: "10px" }}>
+          In the presence of two rescuers: <i>Chest compressions must not be interrupted for ventilation.</i>
+        </li>
+        <li style={{ marginBottom: "10px" }}>
+          Chest compressions must continue for at least <strong>2 minutes</strong> before reassessing the cardiac rhythm.
+        </li>
+        <li style={{ marginBottom: "10px" }}>
+          <strong>2 minutes = 5 cycles of 30:2</strong>.
+        </li>
+      </ul>
+
+      <h2
+        style={{
+          color: "#5cb85c",
+          fontSize: "22px",
+          fontWeight: "bold",
+          marginBottom: "20px",
+        }}
+      >
+        Golden Rules of CPR
+      </h2>
+      <ul style={{ fontSize: "18px", paddingLeft: "20px", marginBottom: "30px" }}>
+        <li style={{ marginBottom: "10px" }}>✔️ Ensure high-quality chest compressions (rate, depth, recoil).</li>
+        <li style={{ marginBottom: "10px" }}>✔️ Plan actions before interrupting CPR.</li>
+        <li style={{ marginBottom: "10px" }}>✔️ Minimize interruptions during chest compressions.</li>
+        <li style={{ marginBottom: "10px" }}>✔️ Early defibrillation for shockable rhythms.</li>
+      </ul>
+
+      <div style={{ textAlign: "center" }}>
+        <i
+          className="fas fa-heartbeat"
+          style={{ fontSize: "40px", color: "#d9534f", marginBottom: "20px" }}
+        ></i>
+        <p style={{ fontSize: "16px", color: "#888" }}>Remember: Every second counts when it comes to saving lives!</p>
+      </div>
+    </div>
+
+    <div style={{
+  fontFamily: "'Poppins', sans-serif", 
+  color: "#333", 
+  padding: "30px", 
+  lineHeight: "1.8", 
+  background: "linear-gradient(to right, #ffffff, #f8f9fa)", 
+  borderRadius: "12px", 
+  boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)"
+}}>
+  <h2 style={{
+    color: "#d9534f", 
+    textAlign: "center", 
+    textTransform: "uppercase", 
+    fontSize: "26px", 
+    fontWeight: "bold", 
+    letterSpacing: "1px"
+  }}>
+    Assessment of the Adequacy of Chest Compressions
+  </h2>
+  <p style={{
+    fontSize: "18px", 
+    textAlign: "justify", 
+    marginBottom: "20px"
+  }}>
+    <strong>Systolic BP:</strong> 60 - 80 mmHg<br />
+    <strong>Diastolic BP:</strong> Greater than 40 mmHg<br />
+    <strong>COP:</strong> 30% of normal
+  </p>
+
+  <h2 style={{
+    color: "#0275d8", 
+    textDecoration: "underline", 
+    fontSize: "22px", 
+    fontWeight: "bold"
+  }}>
+    Problems and Complications of Chest Compressions
+  </h2>
+  <p style={{
+    fontSize: "18px", 
+    textAlign: "justify", 
+    marginBottom: "20px"
+  }}>
+    <strong>Complications:</strong> Rib fractures, fractured sternum, rib separation, pneumothorax, hemothorax, lung contusions, liver lacerations, fat emboli, HIV, Hepatitis, infections.<br />
+    <strong>Management:</strong> Manage accordingly but continue CPR.
+  </p>
+
+  <h2 style={{
+    color: "#5cb85c", 
+    textDecoration: "underline", 
+    fontSize: "22px", 
+    fontWeight: "bold"
+  }}>
+    Airways
+  </h2>
+  <p style={{
+    fontSize: "18px", 
+    textAlign: "justify", 
+    marginBottom: "20px"
+  }}>
+    Loss of consciousness often results in airway obstruction due to loss of tone in the muscles of the airways and falling back of the tongue. Ensure the airways are cleared.
+  </p>
+  <h3 style={{
+    color: "#f0ad4e", 
+    fontSize: "20px", 
+    fontWeight: "bold"
+  }}>
+    Basic Techniques for Airway Patency:
+  </h3>
+  <ul style={{
+    fontSize: "18px", 
+    listStyle: "disc", 
+    marginLeft: "20px"
+  }}>
+    <li><strong>Head Tilt, Chin Lift:</strong> One hand placed on the forehead, the other on the chin. Tilt the head upwards to cause anterior displacement of the tongue.</li>
+    <li><strong>Jaw Thrust:</strong> Used for spinal precautions.</li>
+    <li><strong>Finger Sweep:</strong> Sweep out the finger body in the mouth by index finger (only for conscious patients). This is not advised in a conscious or convulsing patient.</li>
+    <li><strong>Heimlich Manoeuvre:</strong> For conscious patients or when the foreign body cannot be removed by a finger sweep. It is a subdiaphragmatic abdominal thrust that expels a blast of air from the lungs.</li>
+    <li><strong>For Infants:</strong> A series of back blows and chest thrusts.</li>
+  </ul>
+
+  <h2 style={{
+    color: "#0275d8", 
+    textDecoration: "underline", 
+    fontSize: "22px", 
+    fontWeight: "bold"
+  }}>
+    Breathing
+  </h2>
+  <p style={{
+    fontSize: "18px", 
+    textAlign: "justify", 
+    marginBottom: "20px"
+  }}>
+    <strong>Rescue Breathing:</strong> You can perform mouth-to-mouth or mouth-to-nose breathing if the mouth is severely injured or cannot be opened.
+  </p>
+
+  <h3 style={{
+    color: "#f0ad4e", 
+    fontSize: "20px", 
+    fontWeight: "bold"
+  }}>
+    Basic Techniques Include:
+  </h3>
+  <ul style={{
+    fontSize: "18px", 
+    listStyle: "disc", 
+    marginLeft: "20px"
+  }}>
+    <li><strong>Mouth-to-Mouth:</strong> Open the airways (using head-tilt, chin-lift), pinch the nostrils, seal your lips over the patient’s mouth, and blow steadily, watching the chest rise.</li>
+    <li><strong>Mouth-to-Nose:</strong> Seal the mouth shut and breathe steadily through the nose if the mouth cannot be used.</li>
+    <li><strong>Mouth-to-Mouth and Nose:</strong> For infants and small children, use both mouth and nose for breathing.</li>
+  </ul>
+</div>
+
+<div
+  style={{
+    fontFamily: "'Poppins', sans-serif",
+    color: "#333",
+    padding: "30px",
+    lineHeight: "1.8",
+    background: "linear-gradient(to right, #ffffff, #f8f9fa)",
+    borderRadius: "12px",
+    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+  }}
+>
+  <h1
+    style={{
+      color: "#d9534f",
+      textAlign: "center",
+      textTransform: "uppercase",
+      fontSize: "28px",
+      fontWeight: "bold",
+      letterSpacing: "1px",
+    }}
+  >
+    Assessment of Restoration of Breathing and Circulation
+  </h1>
+
+  <div style={{ fontSize: "18px", marginBottom: "20px" }}>
+    <ul style={{ listStyleType: "none", paddingLeft: "0" }}>
+      <li>✔️ Contraction of the pupil</li>
+      <li>✔️ Improved color of skin</li>
+      <li>✔️ Free movement of the chest wall</li>
+      <li>✔️ Swallowing attempts</li>
+      <li>✔️ Struggling movements</li>
+    </ul>
+  </div>
+
+  <h2 style={{ color: "#0275d8", fontSize: "22px", textDecoration: "underline" }}>
+    Signs of Restored Ventilation and Circulation
+  </h2>
+  <div style={{ fontSize: "18px", marginBottom: "20px" }}>
+    <ul style={{ listStyleType: "none", paddingLeft: "0" }}>
+      <li>✔️ Struggling movements</li>
+      <li>✔️ Improved color</li>
+      <li>✔️ Return of strong pulse</li>
+      <li>✔️ Return of systemic blood pressure</li>
+    </ul>
+  </div>
+
+  <h2 style={{ color: "#5cb85c", fontSize: "22px", textTransform: "uppercase" }}>
+    When to Terminate BLS
+  </h2>
+  <div style={{ fontSize: "18px", marginBottom: "20px" }}>
+    <ul style={{ listStyleType: "none", paddingLeft: "0" }}>
+      <li>✔️ Pulse and respiration return</li>
+      <li>✔️ Emergency medical help arrives</li>
+      <li>✔️ Physician declares patient deceased</li>
+      <li>✔️ In a healthcare setting, if rescuer is exhausted and unable to continue BLS</li>
+    </ul>
+  </div>
+
+  <h2 style={{ color: "#f0ad4e", fontSize: "22px", fontWeight: "bold" }}>
+    Advanced Life Support
+  </h2>
+  <div style={{ fontSize: "18px", marginBottom: "20px" }}>
+    <p>Advanced Life Support (ALS) includes:</p>
+    <ul style={{ listStyleType: "none", paddingLeft: "0" }}>
+      <li>✔️ Circulation by cardiac massage</li>
+      <li>✔️ Airway management by specialized equipment</li>
+      <li>✔️ Breathing by advanced techniques</li>
+      <li>✔️ Defibrillation by manual defibrillator</li>
+      <li>✔️ Drugs and medications</li>
+      <li>✔️ Chest compressions</li>
+    </ul>
+  </div>
+
+  <h2 style={{ color: "#0275d8", fontSize: "22px", textDecoration: "underline" }}>
+    Advanced Techniques for Airway Patency
+  </h2>
+  <div style={{ fontSize: "18px", marginBottom: "20px" }}>
+    <ul style={{ listStyleType: "none", paddingLeft: "0" }}>
+      <li>✔️ Face mask</li>
+      <li>✔️ Oropharyngeal airway</li>
+      <li>✔️ Nasopharyngeal airway</li>
+      <li>✔️ Laryngeal mask</li>
+      <li>✔️ Endotracheal tubes</li>
+      <li>✔️ Combitube</li>
+      <li>✔️ Cricothyroidotomy (surgical airway)</li>
+      <li>✔️ Tracheostomy (surgical airway)</li>
+    </ul>
+  </div>
+
+  <h2 style={{ color: "#f0ad4e", fontSize: "22px", fontWeight: "bold" }}>
+    Breathing Considerations
+  </h2>
+  <div style={{ fontSize: "18px", marginBottom: "20px" }}>
+    <p>
+      Expired air contains only **16% O₂**, so supplemental **100% O₂** should be used as soon as possible. Successful breathing is achieved by the delivery of a tidal volume of 800-1200ml in adults at a rate of 10-12 breaths/min.
+    </p>
+
+    <h3 style={{ color: "#0275d8", fontSize: "20px" }}>Advanced Techniques Include:</h3>
+    <ul style={{ listStyleType: "none", paddingLeft: "0" }}>
+      <li>✔️ Self-inflating resuscitation bag (Ambu bag)</li>
+      <li>✔️ Mechanical ventilator (in OR or ICU)</li>
+      <li>✔️ Expired air = 16% O₂</li>
+      <li>✔️ Ambu bag (room air) = 21% O₂</li>
+      <li>✔️ Ambu bag + O₂ (10-15L) = 40% O₂</li>
+      <li>✔️ Ambu bag + O₂ + Reservoir bag = 85% O₂</li>
+    </ul>
+  </div>
+
+  <h2 style={{ color: "#d9534f", fontSize: "22px", fontWeight: "bold" }}>
+    Defibrillation
+  </h2>
+  <div style={{ fontSize: "18px", marginBottom: "20px" }}>
+    <p>
+      **Defibrillation** consists of delivering a therapeutic dose of electrical energy to the affected heart with a device called a **defibrillator**. In cardiac arrest, the associated heart rhythms can be categorized into two groups:
+    </p>
+    <h3 style={{ color: "#0275d8", fontSize: "20px" }}>Shockable Rhythm:</h3>
+    <ul style={{ listStyleType: "none", paddingLeft: "0" }}>
+      <li>✔️ **VT (Ventricular Tachycardia)**</li>
+      <li>✔️ **VF (Ventricular Fibrillation)**</li>
+    </ul>
+
+    <h3 style={{ color: "#0275d8", fontSize: "20px" }}>Non-Shockable Rhythm:</h3>
+    <ul style={{ listStyleType: "none", paddingLeft: "0" }}>
+      <li>✔️ **Asystole**</li>
+      <li>✔️ **PEA (Pulseless Electrical Activity)**</li>
+    </ul>
+
+    <p style={{ marginTop: "20px", fontSize: "16px" }}>
+      The basic difference in the treatment of these two groups of arrhythmia is the need for defibrillation in patients with VT/VF.
+    </p>
+
+    <img src={cardiacArrrest} alt="Cardiac Arrest" style={{ display: "block", marginTop: "20px", width: "100%", borderRadius: "8px" }} />
+  </div>
+</div>
+
+<div
+  style={{
+    fontFamily: "'Poppins', sans-serif",
+    color: "#333",
+    padding: "30px",
+    lineHeight: "1.8",
+    background: "linear-gradient(to right, #ffffff, #f8f9fa)",
+    borderRadius: "12px",
+    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+    maxWidth: "900px",
+    margin: "auto",
+  }}
+>
+  <h2
+    style={{
+      color: "#d9534f",
+      textAlign: "center",
+      fontSize: "24px",
+      fontWeight: "bold",
+      letterSpacing: "1px",
+      marginBottom: "20px",
+    }}
+  >
+    Position of Defibrillator Paddles
+  </h2>
+
+  <p
+    style={{
+      fontSize: "18px",
+      marginBottom: "20px",
+      textAlign: "justify",
+      fontWeight: "500",
+      color: "#333",
+    }}
+  >
+    The position of the paddles is critical for efficient defibrillation.
+  </p>
+
+  <p
+    style={{
+      fontSize: "18px",
+      marginBottom: "20px",
+      textAlign: "justify",
+      color: "#0275d8",
+      fontWeight: "500",
+    }}
+  >
+    1. **Standard Position**: 
+    <br />
+    - One paddle is placed in the right infraclavicular region (upper chest area).
+    <br />
+    - The other paddle is placed in the left 5th–6th intercostal space, in the anterior axillary line.
+  </p>
+
+  <img
+    src={dePaddles}
+    alt="Defibrillator paddles"
+    style={{
+      width: "100%",
+      height: "auto",
+      borderRadius: "10px",
+      boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.15)",
+      marginBottom: "20px",
+    }}
+  />
+
+  <p
+    style={{
+      fontSize: "18px",
+      marginBottom: "20px",
+      textAlign: "justify",
+      color: "#5bc0de",
+      fontWeight: "500",
+    }}
+  >
+    2. **Alternative Anteroposterior Position**: 
+    <br />
+    - One paddle is placed in the left infrascapular region (back).
+    <br />
+    - The other paddle is placed in the left 5th–6th intercostal space in the anterior axillary line.
+  </p>
+
+  <p
+    style={{
+      fontSize: "16px",
+      textAlign: "justify",
+      color: "#888",
+    }}
+  >
+    Proper placement of paddles ensures the most effective shock to restore the heart's rhythm. Always ensure proper positioning and that no one is touching the patient during the shock.
+  </p>
+</div>
+
+<div
+  style={{
+    fontFamily: "'Poppins', sans-serif",
+    color: "#333",
+    padding: "30px",
+    lineHeight: "1.8",
+    background: "linear-gradient(to right, #ffffff, #f8f9fa)",
+    borderRadius: "12px",
+    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+  }}
+>
+  <h1
+    style={{
+      color: "#d9534f",
+      textAlign: "center",
+      textTransform: "uppercase",
+      fontSize: "28px",
+      fontWeight: "bold",
+      letterSpacing: "1px",
+    }}
+  >
+    Video Demonstration of CPR
+  </h1>
+
+  <video
+    width="100%"
+    height="auto"
+    controls
+    style={{
+      borderRadius: "8px",
+      boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+      marginBottom: "20px",
+    }}
+  >
+    <source src={video3} type="video/mp4" />
+    <source src="your_video.webm" type="video/webm" />
+    Your browser does not support the video tag.
+  </video>
+  
+  <p style={{ fontSize: "18px", color: "#333" }}>
+    Watch the video above for a detailed demonstration on CPR procedures.
+  </p>
+</div>
+
+<div style={{
+  fontFamily: "'Poppins', sans-serif",
+  color: "#333",
+  padding: "30px",
+  lineHeight: "1.8",
+  background: "linear-gradient(to right, #ffffff, #f8f9fa)",
+  borderRadius: "12px",
+  boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+}}>
+  <h1 style={{
+    color: "#d9534f",
+    textAlign: "center",
+    textTransform: "uppercase",
+    fontSize: "28px",
+    fontWeight: "bold",
+    letterSpacing: "1px",
+  }}>
+    Cardiac Arrest and CPR Medications
+  </h1>
+  
+  <h2 style={{
+    color: "#0275d8",
+    fontSize: "22px",
+    textDecoration: "underline",
+  }}>
+    Action and Electrical Discharge
+  </h2>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    The action of defibrillation completely depolarizes all myocardial cells, allowing the SA node to reestablish itself as the pacemaker. 
+    The voltage of the electrical discharge varies from 150J to 360J (biphasic), with 360J for monophasic.
+  </p>
+
+  <h2 style={{
+    color: "#5cb85c",
+    fontSize: "22px",
+    textDecoration: "underline",
+  }}>
+    Drugs Used in CPR
+  </h2>
+
+  <h3 style={{
+    color: "#f0ad4e",
+    fontSize: "20px",
+  }}>
+    Adrenaline (Vasopressor)
+  </h3>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    Adrenaline is given as a vasopressor with an alpha-1 effect (not as an inotrope). 
+    The dose is 1mg (0.01mg/kg) IV every 4 minutes (alternating cycles) while continuing CPR.
+    - **Administer immediately** in non-shockable rhythms (non-VT/VF).
+    - In **VF or VT**, give after the 3rd shock.
+    - **Repetitions:** Given every 4 minutes in alternate cycles.
+    - Once adrenaline is started, it should be continued.
+  </p>
+
+  <h3 style={{
+    color: "#0275d8",
+    fontSize: "20px",
+  }}>
+    Amiodarone
+  </h3>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    - **Dose**: 300mg IV bolus (5mg/kg).
+    - **Indications**: Shockable rhythm after the 3rd shock.
+    - If unavailable, **Lidocaine** (100mg IV) can be used as an alternative (1-1.5mg/kg).
+  </p>
+
+  <h3 style={{
+    color: "#f0ad4e",
+    fontSize: "20px",
+  }}>
+    Vasopressin (ADH)
+  </h3>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    - **Dose**: 40 IU as a single dose.
+  </p>
+
+  <h3 style={{
+    color: "#0275d8",
+    fontSize: "20px",
+  }}>
+    Magnesium
+  </h3>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    - **Dose**: 2g IV.
+    - **Indications**: VF/VT with hypomagnesemia, torsades de pointes, digoxin toxicity.
+  </p>
+
+  <h3 style={{
+    color: "#5cb85c",
+    fontSize: "20px",
+  }}>
+    Calcium
+  </h3>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    - **Dose**: 10ml of 10% calcium chloride IV.
+    - **Indications**: PEA caused by hyperkalemia, hypocalcemia, hypermagnesemia, and calcium channel blocker overdose.
+    - **Note**: Do not administer calcium solutions and NaHCO3 simultaneously.
+  </p>
+
+  <h3 style={{
+    color: "#f0ad4e",
+    fontSize: "20px",
+  }}>
+    IV Fluids
+  </h3>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    - Infuse rapidly if hypovolemia is suspected.
+    - Use normal saline (0.9% NaCl) or Ringer’s solutions.
+    - Avoid dextrose, as it may worsen neurological outcomes by redistributing away from the intravascular space and causing hyperglycemia.
+    - Dextrose should only be used if hypoglycemia is documented.
+  </p>
+
+  <h3 style={{
+    color: "#0275d8",
+    fontSize: "20px",
+  }}>
+    Sodium Bicarbonate
+  </h3>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    - Used for severe metabolic acidosis (pH less than 7.1), life-threatening hyperkalemia, and tricyclic antidepressant overdose.
+    - **Dose**: 1/2 base deficit x 1/3 body weight.
+  </p>
+
+  <h3 style={{
+    color: "#5cb85c",
+    fontSize: "20px",
+  }}>
+    Atropine
+  </h3>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    Atropine is used for sinus bradycardia or AV block causing hemodynamic instability.
+    - **Dose**: 0.5mg IV, repeated up to a maximum of 3mg.
+    - **Note**: It is obsolete for PEA and asystole.
+  </p>
+
+  <h2 style={{
+    color: "#d9534f",
+    fontSize: "22px",
+    textDecoration: "underline",
+  }}>
+    Post-Resuscitation Care
+  </h2>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    - Maintain airway and breathing.
+    - Check for circulation.
+    - Optimize neurological recovery.
+    - Provide sedation if necessary.
+  </p>
+
+  <h2 style={{
+    color: "#0275d8",
+    fontSize: "22px",
+    textDecoration: "underline",
+  }}>
+    Managing the Cardiac Arrest Team
+  </h2>
+  <p style={{
+    fontSize: "18px",
+    textAlign: "justify",
+    marginBottom: "20px",
+  }}>
+    During a cardiac arrest, the team leader should allocate roles and tasks to team members. 
+    Assign one person for each of the following roles:
+    - Airway management and ventilation.
+    - Chest compression.
+    - IV drug administration.
+    - Defibrillation timing and documentation.
+  </p>
+</div>
+
+    </>
+   
+  
+,
+    quiz:[
+      {
+        "question": "What is the primary purpose of Cardiopulmonary Resuscitation (CPR)?",
+        "options": [
+          "To restore consciousness",
+          "To restore cardiopulmonary function",
+          "To stabilize body temperature",
+          "To manage hypoglycemia"
+        ],
+        "correctAnswer": "To restore cardiopulmonary function"
+      },
+      {
+        "question": "Which of the following is an indication for CPR?",
+        "options": [
+          "Cardiac arrest",
+          "Hypertension",
+          "Dizziness",
+          "Seizure"
+        ],
+        "correctAnswer": "Cardiac arrest"
+      },
+      {
+        "question": "Which of the following is NOT a cause of cardiac arrest?",
+        "options": [
+          "Hypoxia",
+          "Hypotension",
+          "Sepsis",
+          "Toxicity"
+        ],
+        "correctAnswer": "Sepsis"
+      },
+      {
+        "question": "What is the primary symptom of cardiac arrest?",
+        "options": [
+          "Sudden loss of consciousness",
+          "Chest pain",
+          "Shortness of breath",
+          "Dizziness"
+        ],
+        "correctAnswer": "Sudden loss of consciousness"
+      },
+      {
+        "question": "The diagnosis of cardiac arrest is made based on:",
+        "options": [
+          "Loss of consciousness",
+          "Loss of apical and central pulses",
+          "No breathing (apnea)",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "question": "What is the correct sequence of CPR?",
+        "options": [
+          "ABC (Airway, Breathing, Circulation)",
+          "CAB (Circulation, Airway, Breathing)",
+          "ACB (Airway, Circulation, Breathing)",
+          "BCA (Breathing, Circulation, Airway)"
+        ],
+        "correctAnswer": "CAB (Circulation, Airway, Breathing)"
+      },
+      {
+        "question": "How deep should chest compressions be for an adult during CPR?",
+        "options": [
+          "1-2 cm",
+          "2-4 cm",
+          "5 cm",
+          "8 cm"
+        ],
+        "correctAnswer": "5 cm"
+      },
+      {
+        "question": "What is the recommended compression rate for CPR in adults?",
+        "options": [
+          "60-80 compressions per minute",
+          "90-100 compressions per minute",
+          "100-120 compressions per minute",
+          "120-140 compressions per minute"
+        ],
+        "correctAnswer": "100-120 compressions per minute"
+      },
+      {
+        "question": "Which of the following is the correct compression to ventilation ratio for a single rescuer in CPR?",
+        "options": [
+          "30:2",
+          "15:2",
+          "20:2",
+          "10:1"
+        ],
+        "correctAnswer": "30:2"
+      },
+      {
+        "question": "When should you terminate CPR?",
+        "options": [
+          "If the victim regains consciousness",
+          "If emergency medical help arrives",
+          "If the physician declares the patient deceased",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "question": "Which of the following is an advanced technique for airway patency?",
+        "options": [
+          "Head tilt, chin lift",
+          "Oropharyngeal airway",
+          "Jaw thrust",
+          "Finger sweep"
+        ],
+        "correctAnswer": "Oropharyngeal airway"
+      },
+      {
+        "question": "What is the recommended tidal volume for breathing during CPR in adults?",
+        "options": [
+          "200-400 ml",
+          "400-600 ml",
+          "800-1200 ml",
+          "1500-2000 ml"
+        ],
+        "correctAnswer": "800-1200 ml"
+      },
+      {
+        "question": "What is the purpose of defibrillation?",
+        "options": [
+          "To restore normal heart rhythm",
+          "To increase blood pressure",
+          "To prevent brain damage",
+          "To deliver oxygen to the body"
+        ],
+        "correctAnswer": "To restore normal heart rhythm"
+      },
+      {
+        "question": "What is the shockable rhythm in cardiac arrest?",
+        "options": [
+          "Asystole",
+          "PEA",
+          "VT/VF",
+          "Bradycardia"
+        ],
+        "correctAnswer": "VT/VF"
+      },
+      {
+        "question": "What voltage is typically used for biphasic defibrillation?",
+        "options": [
+          "100-150J",
+          "150-200J",
+          "150J to 360J",
+          "360J"
+        ],
+        "correctAnswer": "150J to 360J"
+      },
+      {
+        "question": "What is the preferred position for the defibrillator paddles?",
+        "options": [
+          "One paddle on the upper chest and the other on the lower chest",
+          "Anteroposterior position",
+          "One paddle in the left infrascapular region",
+          "Both paddles on the upper chest"
+        ],
+        "correctAnswer": "Anteroposterior position"
+      },
+      {
+        "question": "What drug is given as a vasopressor during CPR?",
+        "options": [
+          "Amiodarone",
+          "Magnesium",
+          "Adrenaline",
+          "Lidocaine"
+        ],
+        "correctAnswer": "Adrenaline"
+      },
+      {
+        "question": "What is the dose of adrenaline during CPR?",
+        "options": [
+          "1mg every 4 minutes",
+          "300mg after the 3rd shock",
+          "10mg every 5 minutes",
+          "0.5mg every 2 minutes"
+        ],
+        "correctAnswer": "1mg every 4 minutes"
+      },
+      {
+        "question": "When is amiodarone administered during CPR?",
+        "options": [
+          "After the first shock in shockable rhythm",
+          "After the 3rd shock in shockable rhythm",
+          "Before the first shock",
+          "After the 2nd shock in non-shockable rhythm"
+        ],
+        "correctAnswer": "After the 3rd shock in shockable rhythm"
+      },
+      {
+        "question": "What is the role of magnesium during CPR?",
+        "options": [
+          "For treating hypoxia",
+          "To manage torsades de pointes",
+          "To reverse acidosis",
+          "To treat bradycardia"
+        ],
+        "correctAnswer": "To manage torsades de pointes"
+      },
+      {
+        "question": "What is the recommended IV fluid for hypovolemia during CPR?",
+        "options": [
+          "Dextrose solution",
+          "Normal saline (0.9% NaCl)",
+          "Lactated Ringer's solution",
+          "Both b and c"
+        ],
+        "correctAnswer": "Both b and c"
+      },
+      {
+        "question": "What is the dose of calcium chloride used during CPR?",
+        "options": [
+          "5ml of 10% calcium chloride IV",
+          "10ml of 10% calcium chloride IV",
+          "20ml of 10% calcium chloride IV",
+          "1g of calcium chloride IV"
+        ],
+        "correctAnswer": "10ml of 10% calcium chloride IV"
+      },
+      {
+        "question": "What is sodium bicarbonate used for during CPR?",
+        "options": [
+          "Severe metabolic acidosis",
+          "Pulmonary embolism",
+          "Bradycardia",
+          "Hypoxia"
+        ],
+        "correctAnswer": "Severe metabolic acidosis"
+      },
+      {
+        "question": "What is the recommended dose of atropine for bradycardia during CPR?",
+        "options": [
+          "0.5mg IV",
+          "1mg IV",
+          "5mg IV",
+          "10mg IV"
+        ],
+        "correctAnswer": "0.5mg IV"
+      },
+      {
+        "question": "Which of the following is a complication of chest compressions?",
+        "options": [
+          "Rib fractures",
+          "Lung contusions",
+          "Pneumothorax",
+          "All of the above"
+        ],
+        "correctAnswer": "All of the above"
+      },
+      {
+        "question": "What is the primary goal of post-resuscitation care?",
+        "options": [
+          "To stabilize the patient’s airway",
+          "To prevent brain damage",
+          "To optimize neurological recovery",
+          "To reduce blood pressure"
+        ],
+        "correctAnswer": "To optimize neurological recovery"
+      },
+      {
+        "question": "What is the correct technique for the head-tilt, chin-lift maneuver?",
+        "options": [
+          "One hand placed on the forehead, the other on the chin, tilting the head upward",
+          "Both hands placed on the chin, pulling it upwards",
+          "One hand placed under the neck, lifting the head back",
+          "None of the above"
+        ],
+        "correctAnswer": "One hand placed on the forehead, the other on the chin, tilting the head upward"
+      },
+      {
+        "question": "When should chest compressions be interrupted?",
+        "options": [
+          "When the pulse is detected",
+          "Only after the 3rd shock",
+          "Only during defibrillation",
+          "Chest compressions should never be interrupted"
+        ],
+        "correctAnswer": "Chest compressions should never be interrupted"
+      },
+      {
+        "question": "What does CPR primarily aim to restore in a patient?",
+        "options": [
+          "Blood glucose",
+          "Breathing and pulse",
+          "Oxygen saturation",
+          "Electrolyte balance"
+        ],
+        "correctAnswer": "Breathing and pulse"
+      },
+      {
+        "question": "Which of the following best describes the action of defibrillation?",
+        "options": [
+          "It stops the heart to reset it",
+          "It delivers an electrical shock to restore normal rhythm",
+          "It increases heart rate",
+          "It provides oxygen to the heart"
+        ],
+        "correctAnswer": "It delivers an electrical shock to restore normal rhythm"
+      }
+    ]
+    
     
   },
 
